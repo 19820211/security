@@ -38,6 +38,5 @@ public class UserService {
         user.setRoles(new HashSet<Role>(Arrays.asList(userRole)));
         userRepository.save(user);
     }
-    // test jednostkowy - problem tutaj
 
 }
